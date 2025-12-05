@@ -51,7 +51,7 @@
 
     Private Sub IL6thFloor_Click(sender As Object, e As EventArgs) Handles IL6thFloor.Click
         Me.Hide()
-        Form6.Show()
+
     End Sub
 
     Private Sub IK5thFloor_Click(sender As Object, e As EventArgs) Handles IK5thFloor.Click

@@ -1,5 +1,5 @@
 ﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
-Partial Class Form7
+Partial Class Form10
     Inherits System.Windows.Forms.Form
 
     'Form overrides dispose to clean up the component list.
@@ -26,14 +26,13 @@ Partial Class Form7
         PictureBox2 = New PictureBox()
         Label1 = New Label()
         MenuButton = New PictureBox()
-        Label10 = New Label()
-        ButtonIK502 = New Button()
         Label3 = New Label()
-        Button3 = New Button()
         Label2 = New Label()
-        Button1 = New Button()
         Panel1 = New Panel()
         PictureBox1 = New PictureBox()
+        Button1 = New Button()
+        Label4 = New Label()
+        Label5 = New Label()
         CType(PictureBox2, ComponentModel.ISupportInitialize).BeginInit()
         CType(MenuButton, ComponentModel.ISupportInitialize).BeginInit()
         Panel1.SuspendLayout()
@@ -42,14 +41,15 @@ Partial Class Form7
         ' 
         ' Button15
         ' 
-        Button15.BackColor = Color.DarkGray
+        Button15.BackColor = Color.FromArgb(CByte(6), CByte(11), CByte(55))
         Button15.FlatStyle = FlatStyle.Popup
-        Button15.Font = New Font("Poppins Light", 9F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
-        Button15.Location = New Point(1714, 921)
+        Button15.Font = New Font("Poppins Medium", 10.8F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        Button15.ForeColor = Color.Orange
+        Button15.Location = New Point(1389, 916)
         Button15.Name = "Button15"
-        Button15.Size = New Size(141, 60)
-        Button15.TabIndex = 90
-        Button15.Text = "Back"
+        Button15.Size = New Size(213, 60)
+        Button15.TabIndex = 123
+        Button15.Text = "Confirm"
         Button15.UseVisualStyleBackColor = False
         ' 
         ' PictureBox2
@@ -70,9 +70,9 @@ Partial Class Form7
         Label1.ForeColor = Color.White
         Label1.Location = New Point(82, 21)
         Label1.Name = "Label1"
-        Label1.Size = New Size(286, 53)
+        Label1.Size = New Size(294, 53)
         Label1.TabIndex = 13
-        Label1.Text = "Bautista Building"
+        Label1.Text = "Reservation Form"
         ' 
         ' MenuButton
         ' 
@@ -84,52 +84,18 @@ Partial Class Form7
         MenuButton.TabIndex = 1
         MenuButton.TabStop = False
         ' 
-        ' Label10
-        ' 
-        Label10.AutoSize = True
-        Label10.BackColor = Color.DarkGray
-        Label10.Font = New Font("Poppins Light", 9F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
-        Label10.ForeColor = Color.Black
-        Label10.Location = New Point(175, 280)
-        Label10.Name = "Label10"
-        Label10.Size = New Size(138, 78)
-        Label10.TabIndex = 66
-        Label10.Text = "2:00pm - 5:30pm" & vbCrLf & "Prof name" & vbCrLf & "Subject" & vbCrLf
-        Label10.TextAlign = ContentAlignment.MiddleCenter
-        ' 
-        ' ButtonIK502
-        ' 
-        ButtonIK502.BackColor = Color.DarkGray
-        ButtonIK502.FlatStyle = FlatStyle.Popup
-        ButtonIK502.Font = New Font("Poppins Light", 9F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
-        ButtonIK502.Location = New Point(495, 298)
-        ButtonIK502.Name = "ButtonIK502"
-        ButtonIK502.Size = New Size(171, 60)
-        ButtonIK502.TabIndex = 70
-        ButtonIK502.Text = "Book Reservation"
-        ButtonIK502.UseVisualStyleBackColor = False
-        ' 
         ' Label3
         ' 
         Label3.AutoSize = True
-        Label3.BackColor = Color.FromArgb(CByte(159), CByte(255), CByte(119))
-        Label3.Font = New Font("Poppins", 36F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        Label3.BackColor = Color.Transparent
+        Label3.Font = New Font("Poppins Medium", 13.8F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
         Label3.ForeColor = Color.Black
-        Label3.Location = New Point(485, 189)
+        Label3.Location = New Point(46, 188)
         Label3.Name = "Label3"
-        Label3.Size = New Size(212, 106)
-        Label3.TabIndex = 69
-        Label3.Text = "Ik502"
-        ' 
-        ' Button3
-        ' 
-        Button3.BackColor = Color.FromArgb(CByte(159), CByte(255), CByte(119))
-        Button3.FlatStyle = FlatStyle.Popup
-        Button3.Location = New Point(437, 168)
-        Button3.Name = "Button3"
-        Button3.Size = New Size(284, 215)
-        Button3.TabIndex = 68
-        Button3.UseVisualStyleBackColor = False
+        Label3.Size = New Size(294, 40)
+        Label3.TabIndex = 119
+        Label3.Text = "ROOM CONFIRMATION "
+        Label3.TextAlign = ContentAlignment.MiddleCenter
         ' 
         ' Label2
         ' 
@@ -137,21 +103,10 @@ Partial Class Form7
         Label2.BackColor = Color.DarkGray
         Label2.Font = New Font("Poppins", 36F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
         Label2.ForeColor = Color.Black
-        Label2.Location = New Point(150, 189)
+        Label2.Location = New Point(791, 350)
         Label2.Name = "Label2"
-        Label2.Size = New Size(201, 106)
-        Label2.TabIndex = 67
-        Label2.Text = "Ik501"
-        ' 
-        ' Button1
-        ' 
-        Button1.BackColor = Color.DarkGray
-        Button1.FlatStyle = FlatStyle.Popup
-        Button1.Location = New Point(102, 168)
-        Button1.Name = "Button1"
-        Button1.Size = New Size(284, 215)
-        Button1.TabIndex = 65
-        Button1.UseVisualStyleBackColor = False
+        Label2.Size = New Size(0, 106)
+        Label2.TabIndex = 121
         ' 
         ' Panel1
         ' 
@@ -163,36 +118,74 @@ Partial Class Form7
         Panel1.Location = New Point(0, 0)
         Panel1.Name = "Panel1"
         Panel1.Size = New Size(1902, 86)
-        Panel1.TabIndex = 64
+        Panel1.TabIndex = 120
         ' 
         ' PictureBox1
         ' 
         PictureBox1.Image = My.Resources.Resources.logo_opacity
-        PictureBox1.Location = New Point(686, 214)
+        PictureBox1.Location = New Point(724, 258)
         PictureBox1.Name = "PictureBox1"
         PictureBox1.Size = New Size(589, 619)
         PictureBox1.SizeMode = PictureBoxSizeMode.Zoom
-        PictureBox1.TabIndex = 74
+        PictureBox1.TabIndex = 122
         PictureBox1.TabStop = False
         ' 
-        ' Form7
+        ' Button1
+        ' 
+        Button1.BackColor = Color.DarkGray
+        Button1.FlatStyle = FlatStyle.Popup
+        Button1.Font = New Font("Poppins Medium", 10.8F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        Button1.Location = New Point(1624, 916)
+        Button1.Name = "Button1"
+        Button1.Size = New Size(213, 60)
+        Button1.TabIndex = 132
+        Button1.Text = "Cancel"
+        Button1.UseVisualStyleBackColor = False
+        ' 
+        ' Label4
+        ' 
+        Label4.AutoSize = True
+        Label4.BackColor = Color.Transparent
+        Label4.Font = New Font("Poppins Medium", 13.8F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        Label4.ForeColor = Color.Black
+        Label4.Location = New Point(46, 405)
+        Label4.Name = "Label4"
+        Label4.Size = New Size(78, 40)
+        Label4.TabIndex = 133
+        Label4.Text = "DATE"
+        Label4.TextAlign = ContentAlignment.MiddleCenter
+        ' 
+        ' Label5
+        ' 
+        Label5.AutoSize = True
+        Label5.BackColor = Color.Transparent
+        Label5.Font = New Font("Poppins Medium", 13.8F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        Label5.ForeColor = Color.Black
+        Label5.Location = New Point(46, 579)
+        Label5.Name = "Label5"
+        Label5.Size = New Size(61, 39)
+        Label5.TabIndex = 134
+        Label5.Text = "TIME"
+        Label5.TextAlign = ContentAlignment.MiddleRight
+        Label5.UseCompatibleTextRendering = True
+        ' 
+        ' Form10
         ' 
         AutoScaleDimensions = New SizeF(120F, 120F)
         AutoScaleMode = AutoScaleMode.Dpi
         ClientSize = New Size(1902, 1013)
-        Controls.Add(Button15)
-        Controls.Add(Label10)
-        Controls.Add(ButtonIK502)
-        Controls.Add(Label3)
-        Controls.Add(Button3)
-        Controls.Add(Label2)
+        Controls.Add(Label5)
+        Controls.Add(Label4)
         Controls.Add(Button1)
+        Controls.Add(Button15)
+        Controls.Add(Label3)
+        Controls.Add(Label2)
         Controls.Add(Panel1)
         Controls.Add(PictureBox1)
         FormBorderStyle = FormBorderStyle.FixedToolWindow
-        Name = "Form7"
+        Name = "Form10"
         StartPosition = FormStartPosition.CenterScreen
-        Text = "Form7"
+        Text = "Form10"
         CType(PictureBox2, ComponentModel.ISupportInitialize).EndInit()
         CType(MenuButton, ComponentModel.ISupportInitialize).EndInit()
         Panel1.ResumeLayout(False)
@@ -206,12 +199,11 @@ Partial Class Form7
     Friend WithEvents PictureBox2 As PictureBox
     Friend WithEvents Label1 As Label
     Friend WithEvents MenuButton As PictureBox
-    Friend WithEvents Label10 As Label
-    Friend WithEvents ButtonIK502 As Button
     Friend WithEvents Label3 As Label
-    Friend WithEvents Button3 As Button
     Friend WithEvents Label2 As Label
-    Friend WithEvents Button1 As Button
     Friend WithEvents Panel1 As Panel
     Friend WithEvents PictureBox1 As PictureBox
+    Friend WithEvents Button1 As Button
+    Friend WithEvents Label4 As Label
+    Friend WithEvents Label5 As Label
 End Class
