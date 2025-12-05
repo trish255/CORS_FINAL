@@ -63,4 +63,14 @@
         Me.Hide()
         Form8.Show()
     End Sub
+
+    Private Sub RecordButton_Click(sender As Object, e As EventArgs) Handles RecordButton.Click
+        Me.Hide()
+        Form12.Show()
+    End Sub
+
+    Private Sub HistoryButton_Click(sender As Object, e As EventArgs) Handles HistoryButton.Click
+        Me.Hide()
+        Form13.Show()
+    End Sub
 End Class
