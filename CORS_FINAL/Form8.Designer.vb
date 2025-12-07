@@ -44,7 +44,7 @@ Partial Class Form8
         ' 
         Button15.BackColor = Color.DarkGray
         Button15.FlatStyle = FlatStyle.Popup
-        Button15.Font = New Font("Poppins Light", 9.0F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
+        Button15.Font = New Font("Poppins Light", 9F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
         Button15.Location = New Point(1714, 937)
         Button15.Name = "Button15"
         Button15.Size = New Size(141, 60)
@@ -66,7 +66,7 @@ Partial Class Form8
         ' 
         Label1.AutoSize = True
         Label1.BackColor = Color.Transparent
-        Label1.Font = New Font("Poppins", 18.0F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        Label1.Font = New Font("Poppins", 18F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
         Label1.ForeColor = Color.White
         Label1.Location = New Point(82, 21)
         Label1.Name = "Label1"
@@ -88,7 +88,7 @@ Partial Class Form8
         ' 
         Label10.AutoSize = True
         Label10.BackColor = Color.DarkGray
-        Label10.Font = New Font("Poppins Light", 9.0F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
+        Label10.Font = New Font("Poppins Light", 9F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
         Label10.ForeColor = Color.Black
         Label10.Location = New Point(175, 296)
         Label10.Name = "Label10"
@@ -101,7 +101,7 @@ Partial Class Form8
         ' 
         ButtonIK602.BackColor = Color.DarkGray
         ButtonIK602.FlatStyle = FlatStyle.Popup
-        ButtonIK602.Font = New Font("Poppins Light", 9.0F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
+        ButtonIK602.Font = New Font("Poppins Light", 9F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
         ButtonIK602.Location = New Point(495, 314)
         ButtonIK602.Name = "ButtonIK602"
         ButtonIK602.Size = New Size(171, 60)
@@ -113,7 +113,7 @@ Partial Class Form8
         ' 
         Label3.AutoSize = True
         Label3.BackColor = Color.FromArgb(CByte(159), CByte(255), CByte(119))
-        Label3.Font = New Font("Poppins", 36.0F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        Label3.Font = New Font("Poppins", 36F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
         Label3.ForeColor = Color.Black
         Label3.Location = New Point(485, 205)
         Label3.Name = "Label3"
@@ -135,7 +135,7 @@ Partial Class Form8
         ' 
         Label2.AutoSize = True
         Label2.BackColor = Color.DarkGray
-        Label2.Font = New Font("Poppins", 36.0F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        Label2.Font = New Font("Poppins", 36F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
         Label2.ForeColor = Color.Black
         Label2.Location = New Point(150, 205)
         Label2.Name = "Label2"
@@ -177,7 +177,7 @@ Partial Class Form8
         ' 
         ' Form8
         ' 
-        AutoScaleDimensions = New SizeF(120.0F, 120.0F)
+        AutoScaleDimensions = New SizeF(120F, 120F)
         AutoScaleMode = AutoScaleMode.Dpi
         ClientSize = New Size(1902, 1013)
         Controls.Add(Button15)

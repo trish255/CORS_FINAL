@@ -5,7 +5,7 @@
     Private MenuVisible As Boolean = False
 
     Private Sub Form4_Load(sender As Object, e As EventArgs) Handles MyBase.Load
-
+        MakeResponsive(Me)
         For Each ctrl In {IL5thFloor, IL6thFloor, IK5thFloor, IK6thFloor}
             ctrl.Visible = False
         Next

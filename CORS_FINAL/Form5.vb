@@ -1,6 +1,7 @@
 ﻿Public Class Form5
 
     Private Sub Form5_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+        MakeResponsive(Me)
     End Sub
 
     Private Sub Button15_Click(sender As Object, e As EventArgs) Handles Button15.Click
